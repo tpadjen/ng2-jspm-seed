@@ -22,8 +22,8 @@ System.config({
   },
 
   packages: {
-    "src": {
-      "main": "index",
+    "app": {
+      "main": "main",
       "defaultExtension": "ts",
       "meta": {
         "*.ts": {
@@ -38,7 +38,7 @@ System.config({
       }
     },
     "example-service": {
-      "main": "index",
+      "main": "main",
       "defaultExtension": "ts",
       "meta": {
         "*.ts": {
