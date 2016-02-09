@@ -2,10 +2,11 @@
   "compilerOptions": {
     "target": "es5",
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "moduleResolution": "node"
   },
-  "files": [
-    "./app/index.ts",
-    "./app/_references.d.ts"
+  "exclude": [
+    "node_modules",
+    "jspm_packages"
   ]
 }
