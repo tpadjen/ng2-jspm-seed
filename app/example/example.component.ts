@@ -2,7 +2,7 @@ import {Component} from 'angular2/core';
 
 @Component({
   selector: 'example-component',
-  template: require("./example.html"),
+  templateUrl: 'app/example/example.html'
 })
 export class ExampleComponent {
 
