@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "node tasks/start",
-    "example": "node tasks/start",
+    "lite": "lite-server",
+    "start": "npm run lite",
     "build": "node tasks/build",
     "bundle": "node tasks/build"
   },
@@ -25,10 +25,8 @@
     }
   },
   "devDependencies": {
-    "chokidar-socket-emitter": "^0.4.2",
-    "http-server": "^0.8.5",
     "jspm": "^0.16.27",
-    "open": "0.0.5"
+    "lite-server": "^2.0.1"
   },
   "dependencies": {
     "angular2": "^2.0.0-beta.3"
