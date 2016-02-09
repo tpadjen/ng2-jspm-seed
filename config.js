@@ -1,13 +1,6 @@
 System.config({
   baseURL: ".",
   defaultJSExtensions: true,
-  transpiler: "babel",
-  babelOptions: {
-    "optional": [
-      "runtime",
-      "optimisation.modules.system"
-    ]
-  },
   typescriptOptions: {
     "module": "system",
     "target": "es5",
@@ -34,15 +27,6 @@ System.config({
         },
         "*.html": {
           "loader": "text"
-        }
-      }
-    },
-    "example-service": {
-      "main": "main",
-      "defaultExtension": "ts",
-      "meta": {
-        "*.ts": {
-          "loader": "ts"
         }
       }
     }
