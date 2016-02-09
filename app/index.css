@@ -1,7 +1,9 @@
-.greeting {
-	font-family: comic-sans
+h1 {
+  font-family: comic-sans;
+  color: green;
+  background: yellow;
 }
 
 button {
-	text-transform: uppercase
+  text-transform: uppercase
 }
