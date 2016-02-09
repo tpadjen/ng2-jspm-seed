@@ -8,35 +8,35 @@ $ gulp
 ## Files
 
 ```
-├── app ------------------------------> Contains all angular code 
+├── app/                          * contains all angular code 
 │   │
-│   ├── app.component.ts -------------> Main app component
+│   ├── app.component.ts          * main app component
 │   │
-│   ├── example ----------------------> Simple component
+│   ├── example/                  * simple component
 │   │   │
-│   │   ├── example.component.ts -----> Defines the ExampleComponent
+│   │   ├── example.component.ts  * ExampleComponent definition
 │   │   │
-│   │   └── example.html -------------> ExampleComponent template
+│   │   └── example.html          * ExampleComponent template
 │   │
-│   ├── index.css --------------------> Site-wide styles
+│   ├── index.css                 * site-wide styles
 │   │
-│   └── main.ts ----------------------> Entry point, bootstraps the app
+│   └── main.ts                   * entry point, bootstraps the app
 │
-├── .editorconfig --------------------> Common editor settings
+├── .editorconfig                 * common editor settings
 │
 ├── .gitignore
 │
 ├── README.md
 │
-├── bs-config.json -------------------> BrowserSync settings
+├── bs-config.json                * browsersync settings
 │
-├── config.js ------------------------> Jspm configuration
+├── config.js                     * jspm configuration and dependencies
 │
-├── gulpfile.js ----------------------> Define tasks
+├── gulpfile.js                   * define tasks
 │
-├── index.html
+├── index.html                    * site's index page
 │
-├── package.json
+├── package.json                  * npm configuration and dependencies
 │
-└── tsconfig.json --------------------> Typescript settings 
+└── tsconfig.json                 * typescript compilation settings 
 ```
