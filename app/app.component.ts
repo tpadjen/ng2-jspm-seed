@@ -7,4 +7,4 @@ import {ExampleComponent} from './example/example.component';
   template: '<example-component></example-component>',
   directives: [ExampleComponent]
 })
-export class ExampleApp {}
+export class AppComponent {}
