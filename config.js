@@ -9,7 +9,7 @@ System.config({
     ]
   },
   typescriptOptions: {
-    "module": "commonjs",
+    "module": "system",
     "target": "es6",
     "noImplicitAny": false,
     "typeCheck": false,
