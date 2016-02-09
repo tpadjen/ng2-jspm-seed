@@ -1,5 +1,14 @@
 # ng2-jspm-seed
 
+## Installation
+
+```
+$ npm i
+$ jspm i
+```
+
+## Development
+
 Run the server and watch for changes:
 ```
 $ gulp
