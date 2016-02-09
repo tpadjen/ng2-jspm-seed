@@ -1,6 +1,8 @@
 var jspm = require("jspm");
 
-jspm.bundleSFX("app", "app/main.js")
+jspm.bundleSFX("app", "app/main.js", {
+  sourceMaps: true
+})
    .then(function() {
       console.log('Build complete, go to http://127.0.0.1:8080/index-bundle.html');
    })

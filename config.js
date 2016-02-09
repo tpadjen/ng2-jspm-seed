@@ -10,7 +10,7 @@ System.config({
   },
   typescriptOptions: {
     "module": "system",
-    "target": "es6",
+    "target": "es5",
     "noImplicitAny": false,
     "typeCheck": false,
     "tsconfig": true,
