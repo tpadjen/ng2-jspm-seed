@@ -1,10 +1,13 @@
 {
+  "name": "ng2-jspm-seed",
+  "version": "0.0.1",
   "scripts": {
     "lite": "lite-server",
     "start": "gulp",
     "build": "gulp bundle",
     "bundle": "gulp bundle"
   },
+  "license": "ISC",
   "jspm": {
     "registry": "github",
     "dependencies": {
