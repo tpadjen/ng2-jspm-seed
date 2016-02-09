@@ -4,10 +4,12 @@ var shell = require('gulp-shell');
 var runSequence = require('run-sequence');
 
 gulp.task('default', function() {
-  runSequence('bundle', 'serve', 'watch');
+  runSequence('bundle', 'serve');
 });
 
-gulp.task('serve', shell.task('npm run lite'));
+gulp.task('lite-server', shell.task('npm run lite'));
+
+gulp.task('serve', ['watch', 'lite-server']);
 
 gulp.task('bundle', function(done) { bundle(done); });
 
