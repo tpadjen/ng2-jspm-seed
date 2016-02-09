@@ -1,8 +1,13 @@
 var gulp = require('gulp');
 var jspm = require("jspm");
+var shell = require('gulp-shell');
+var runSequence = require('run-sequence');
 
+gulp.task('default', function() {
+  runSequence('bundle', 'serve', 'watch');
+});
 
-gulp.task('default', ['watch']);
+gulp.task('serve', shell.task('npm run lite'));
 
 gulp.task('bundle', function(done) { bundle(done); });
 
@@ -22,7 +27,7 @@ function bundle(done) {
     });
 }
 
-gulp.task('watch', ['bundle'], function() {
+gulp.task('watch', function() {
   console.log("\nWatching typescript for changes");
   console.log("-------------------------------");
 
